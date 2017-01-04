@@ -8,5 +8,5 @@
 
 import UIKit
 
-class SecondaryCell: UITableViewCell {
+open class SecondaryCell: UITableViewCell {
 }

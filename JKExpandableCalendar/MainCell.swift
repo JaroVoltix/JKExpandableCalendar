@@ -12,7 +12,7 @@ protocol MainCellDelegate {
     func expandCell(_ cell:MainCell)
 }
 
-class MainCell: UITableViewCell {
+open class MainCell: UITableViewCell {
     @IBOutlet var test: UILabel!
     var delegate:MainCellDelegate?
     @IBAction func buttonTouched(_ sender: Any) {

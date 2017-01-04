@@ -19,9 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EZI-OS-ypp">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EZI-OS-ypp">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="0UM-7Q-hb6"/>
@@ -29,6 +28,12 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EZI-OS-ypp" firstAttribute="leading" secondItem="Trg-II-ofJ" secondAttribute="leading" id="4cf-gu-FjF"/>
+                <constraint firstItem="EZI-OS-ypp" firstAttribute="top" secondItem="Trg-II-ofJ" secondAttribute="top" id="86t-KY-jQX"/>
+                <constraint firstAttribute="trailing" secondItem="EZI-OS-ypp" secondAttribute="trailing" id="EWt-0y-g7v"/>
+                <constraint firstAttribute="bottom" secondItem="EZI-OS-ypp" secondAttribute="bottom" id="fvb-jd-Za0"/>
+            </constraints>
         </view>
     </objects>
 </document>
